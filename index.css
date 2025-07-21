@@ -1,0 +1,58 @@
+.Logo{
+    img{
+        height: 5rem;
+        width: 5rem;
+        border-radius: 50%;
+        margin-left: 2rem;
+    }
+        
+    }
+.nav-items{
+    display: flex;
+    align-items: center;
+    ul{
+        display: flex;
+        
+        li{
+        list-style-type: none;
+        padding-left:2rem;
+        padding-right:2rem;
+        font-size: large;
+    }
+    margin-right:2rem;
+    }
+    
+}
+.header{
+    display: flex;
+    margin:1rem 1rem 0rem 1rem;
+    justify-content: space-between;
+    border:solid 2px black;
+}
+
+.restroCard{
+    border: solid 2px black;
+    margin: 10px 2rem 0px 2rem;
+    display: flex;
+    justify-content: center;
+    gap:4vw;
+    flex-wrap: wrap;
+    padding:3vh 0px 3vh 0px;
+
+    .res-card{
+        height: 50vh;
+        width: 15vw;
+        background-color: gainsboro;
+        padding:4px;
+        text-align: center;
+        img{
+            height: 40%;
+            width: 100%;
+            
+        }
+    }
+    .res-card:hover{
+        cursor:pointer;
+        border: solid black 1px;
+    }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "episode2",
+  "version": "1.0.0",
+  "description": "This is React second lecture of a day",
+  "keywords": [
+    "hello"
+  ],
+  "homepage": "https://github.com/PriyanshuAcharya41/Practice_React#readme",
+  "bugs": {
+    "url": "https://github.com/PriyanshuAcharya41/Practice_React/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PriyanshuAcharya41/Practice_React.git"
+  },
+  "license": "ISC",
+  "author": "PriyanshuAcharya",
+  "type": "commonjs",
+  "scripts": {
+    "start": " parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  },
+  "dependencies": {
+    "lucide-react": "^0.525.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
